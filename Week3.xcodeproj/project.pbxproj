@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49A7CA321A889DFB00A63513 /* TodoList.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A7CA311A889DFB00A63513 /* TodoList.m */; };
+		49A7CA351A889E1600A63513 /* TodoListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A7CA341A889E1600A63513 /* TodoListItem.m */; };
 		49E3FCDB1A7B445C00A4E295 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E3FCDA1A7B445C00A4E295 /* AppDelegate.m */; };
 		49E3FCDD1A7B445C00A4E295 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E3FCDC1A7B445C00A4E295 /* main.m */; };
 		49E3FCE01A7B445C00A4E295 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E3FCDF1A7B445C00A4E295 /* ViewController.m */; };
@@ -26,6 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49A7CA301A889DFB00A63513 /* TodoList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoList.h; sourceTree = "<group>"; };
+		49A7CA311A889DFB00A63513 /* TodoList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoList.m; sourceTree = "<group>"; };
+		49A7CA331A889E1600A63513 /* TodoListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoListItem.h; sourceTree = "<group>"; };
+		49A7CA341A889E1600A63513 /* TodoListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoListItem.m; sourceTree = "<group>"; };
 		49E3FCD41A7B445C00A4E295 /* Week3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E3FCD81A7B445C00A4E295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49E3FCD91A7B445C00A4E295 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,6 +85,10 @@
 		49E3FCD61A7B445C00A4E295 /* Week3 */ = {
 			isa = PBXGroup;
 			children = (
+				49A7CA331A889E1600A63513 /* TodoListItem.h */,
+				49A7CA341A889E1600A63513 /* TodoListItem.m */,
+				49A7CA301A889DFB00A63513 /* TodoList.h */,
+				49A7CA311A889DFB00A63513 /* TodoList.m */,
 				49E3FCD91A7B445C00A4E295 /* AppDelegate.h */,
 				49E3FCDA1A7B445C00A4E295 /* AppDelegate.m */,
 				49E3FCDE1A7B445C00A4E295 /* ViewController.h */,
@@ -215,9 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A7CA351A889E1600A63513 /* TodoListItem.m in Sources */,
 				49E3FCE01A7B445C00A4E295 /* ViewController.m in Sources */,
 				49E3FCDD1A7B445C00A4E295 /* main.m in Sources */,
 				49E3FCDB1A7B445C00A4E295 /* AppDelegate.m in Sources */,
+				49A7CA321A889DFB00A63513 /* TodoList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +416,7 @@
 				49E3FCF61A7B445C00A4E295 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49E3FCF71A7B445C00A4E295 /* Build configuration list for PBXNativeTarget "Week3Tests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +425,7 @@
 				49E3FCF91A7B445C00A4E295 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
